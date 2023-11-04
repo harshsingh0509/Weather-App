@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(weather\ app\ bg\ img.jpeg);
+    background-size: cover;
+ }
+  
+  .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+ }
+
+  .container{
+    font-family: sans-serif;
+  }
+
+  .card-body{
+   background-color: aliceblue;
+   font-size: 14px;
+   font-family:  arial,sans-serif;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .collapse navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .navbar-nav me-auto mb-2 mb-lg-0{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .display-6{
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .mb-4{
+    margin-bottom: 1rem;
+  }
+
+  .my-4{
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+    .display-6 {
+      font-size: 28px;
+    }
+  
+    .my-4 {
+      font-size: 28px;
+    }
+  
+    .card-body {
+      font-size: 12px;
+    }
+  }
+
+ 
+
+
+
+ 
+
